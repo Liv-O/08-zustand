@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `Notes with ${category} category`,
       description: `App for writing your personal notes and reminders. Your "${category}" notes`,
-      url: 'http://localhost:3000',
+      url: `https://08-zustand-ten-ebon.vercel.app/notes/filter/${category}`,
       siteName: 'NoteHub',
       images: [
         {

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'Notehub',
     description:
       'App for writing your personal notes and reminders. Created by Olia',
-    url: 'http://localhost:3000',
+    url: 'https://08-zustand-ten-ebon.vercel.app/',
     siteName: 'NoteHub',
     images: [
       {
